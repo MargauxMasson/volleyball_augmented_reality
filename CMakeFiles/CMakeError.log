@@ -1,0 +1,1071 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e3e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e3e7.dir/build.make CMakeFiles/cmTC_6e3e7.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_6e3e7.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_6e3e7.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_6e3e7.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_6e3e7.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_6e3e7.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_6e3e7/fast » a échouée
+make: *** [cmTC_6e3e7/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de437/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de437.dir/build.make CMakeFiles/cmTC_de437.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_de437.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_de437.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_de437.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_de437.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_de437.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_de437/fast » a échouée
+make: *** [cmTC_de437/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de024/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de024.dir/build.make CMakeFiles/cmTC_de024.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_de024.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_de024.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_de024.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_de024.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_de024.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_de024/fast » a échouée
+make: *** [cmTC_de024/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec409020801/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec409020801.dir/build.make CMakeFiles/cmTryCompileExec409020801.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec409020801.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec409020801.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec409020801.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec409020801/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3510909332/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3510909332.dir/build.make CMakeFiles/cmTryCompileExec3510909332.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3510909332.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3510909332.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec3510909332.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec3510909332/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec702631057/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec702631057.dir/build.make CMakeFiles/cmTryCompileExec702631057.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec702631057.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec702631057.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec702631057.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec702631057/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Bureau/projet_majeur1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec426133880/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec426133880.dir/build.make CMakeFiles/cmTryCompileExec426133880.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec426133880.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec426133880.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec426133880.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec426133880/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2378681958/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2378681958.dir/build.make CMakeFiles/cmTryCompileExec2378681958.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2378681958.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2378681958.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec2378681958.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec2378681958/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1201852323/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1201852323.dir/build.make CMakeFiles/cmTryCompileExec1201852323.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1201852323.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1201852323.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec1201852323.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec1201852323/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3330042141/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3330042141.dir/build.make CMakeFiles/cmTryCompileExec3330042141.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3330042141.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3330042141.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec3330042141.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec3330042141/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2363956715/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2363956715.dir/build.make CMakeFiles/cmTryCompileExec2363956715.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2363956715.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2363956715.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec2363956715.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec2363956715/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec201919934/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec201919934.dir/build.make CMakeFiles/cmTryCompileExec201919934.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec201919934.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec201919934.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec201919934.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec201919934/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel1test/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2368908471/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2368908471.dir/build.make CMakeFiles/cmTryCompileExec2368908471.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2368908471.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2368908471.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec2368908471.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec2368908471/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2088516578/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2088516578.dir/build.make CMakeFiles/cmTryCompileExec2088516578.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2088516578.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2088516578.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2088516578.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec2088516578/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3949283447/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3949283447.dir/build.make CMakeFiles/cmTryCompileExec3949283447.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3949283447.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3949283447.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec3949283447.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec3949283447/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Bureau/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b390/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b390.dir/build.make CMakeFiles/cmTC_5b390.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_5b390.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_5b390.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_5b390.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_5b390.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_5b390.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_5b390/fast » a échouée
+make: *** [cmTC_5b390/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21f15/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21f15.dir/build.make CMakeFiles/cmTC_21f15.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_21f15.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_21f15.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_21f15.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_21f15.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_21f15.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_21f15/fast » a échouée
+make: *** [cmTC_21f15/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70cb5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70cb5.dir/build.make CMakeFiles/cmTC_70cb5.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_70cb5.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_70cb5.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_70cb5.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_70cb5.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_70cb5.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_70cb5/fast » a échouée
+make: *** [cmTC_70cb5/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2948536748/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2948536748.dir/build.make CMakeFiles/cmTryCompileExec2948536748.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2948536748.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2948536748.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec2948536748.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec2948536748/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1236161687/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1236161687.dir/build.make CMakeFiles/cmTryCompileExec1236161687.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1236161687.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1236161687.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec1236161687.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec1236161687/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3521984921/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3521984921.dir/build.make CMakeFiles/cmTryCompileExec3521984921.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3521984921.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3521984921.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec3521984921.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec3521984921/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31a8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31a8d.dir/build.make CMakeFiles/cmTC_31a8d.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_31a8d.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_31a8d.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_31a8d.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_31a8d.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_31a8d.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_31a8d/fast » a échouée
+make: *** [cmTC_31a8d/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2bc0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2bc0c.dir/build.make CMakeFiles/cmTC_2bc0c.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_2bc0c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_2bc0c.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_2bc0c.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_2bc0c.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_2bc0c.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_2bc0c/fast » a échouée
+make: *** [cmTC_2bc0c/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6aea9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6aea9.dir/build.make CMakeFiles/cmTC_6aea9.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_6aea9.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_6aea9.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_6aea9.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_6aea9.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_6aea9.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_6aea9/fast » a échouée
+make: *** [cmTC_6aea9/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-6/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2151157086/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2151157086.dir/build.make CMakeFiles/cmTryCompileExec2151157086.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2151157086.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2151157086.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec2151157086.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec2151157086/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec372908892/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec372908892.dir/build.make CMakeFiles/cmTryCompileExec372908892.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec372908892.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec372908892.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec372908892.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec372908892/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1501165683/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1501165683.dir/build.make CMakeFiles/cmTryCompileExec1501165683.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1501165683.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1501165683.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec1501165683.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec1501165683/fast] Erreur 2
+
+File /fs03/share/users/margaux.masson/home/Documents/projet_majeur_fonctionel-7/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8fdd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8fdd8.dir/build.make CMakeFiles/cmTC_8fdd8.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_8fdd8.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_8fdd8.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_8fdd8.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_8fdd8.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_8fdd8.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_8fdd8/fast » a échouée
+make: *** [cmTC_8fdd8/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2aaba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2aaba.dir/build.make CMakeFiles/cmTC_2aaba.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_2aaba.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_2aaba.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_2aaba.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_2aaba.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_2aaba.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_2aaba/fast » a échouée
+make: *** [cmTC_2aaba/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e630/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e630.dir/build.make CMakeFiles/cmTC_0e630.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_0e630.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_0e630.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_0e630.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_0e630.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_0e630.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_0e630/fast » a échouée
+make: *** [cmTC_0e630/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a8b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a8b4.dir/build.make CMakeFiles/cmTC_7a8b4.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_7a8b4.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_7a8b4.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_7a8b4.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_7a8b4.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_7a8b4.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_7a8b4/fast » a échouée
+make: *** [cmTC_7a8b4/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbcb9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbcb9.dir/build.make CMakeFiles/cmTC_dbcb9.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_dbcb9.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_dbcb9.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_dbcb9.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_dbcb9.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_dbcb9.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_dbcb9/fast » a échouée
+make: *** [cmTC_dbcb9/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_146cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_146cf.dir/build.make CMakeFiles/cmTC_146cf.dir/build
+make[1] : on entre dans le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_146cf.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_146cf.dir/CheckSymbolExists.cxx.o -c /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_146cf.dir/build.make:65 : la recette pour la cible « CMakeFiles/cmTC_146cf.dir/CheckSymbolExists.cxx.o » a échouée
+make[1]: *** [CMakeFiles/cmTC_146cf.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1] : on quitte le répertoire « /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_146cf/fast » a échouée
+make: *** [cmTC_146cf/fast] Erreur 2
+
+File /home/thibault/Bureau/majeur/projet/projet_majeur_fonctionel-9/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

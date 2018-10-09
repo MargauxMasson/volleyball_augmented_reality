@@ -1,0 +1,13 @@
+Read Me
+
+en ligne de commande dans le terminal :
+
+cd Marcais_Masson/projet_majeur_marcais_masson
+
+cmake .
+
+make
+
+.pgm
+
+(ou lancer le cmakeList avec QtCreator)
